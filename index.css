@@ -1,0 +1,95 @@
+body {
+  align-items: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.header{
+  display: flex;
+  justify-content: center;
+}
+.containerHeader{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container{
+  border:1px solid;
+  border-radius: 5px;
+  padding: 2vw;
+  border-color: darkgray;
+  min-width: 300px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.btn{
+  background-color: black;
+  font-size:18px;
+  color:white;
+  border-width: 1px;
+  border-radius: 3px;
+}
+.btn:active{
+  background-color: white;
+  color: black;
+}
+.btn:hover{
+  cursor: pointer;
+}
+h2{
+  display: inline-block;
+  margin: 0;
+}
+.task{
+  margin:5px;
+  border-radius: 3px;  
+  padding: 1vw;
+  background-color: rgba(0, 0, 0, 0.082);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reminderon{
+  border-left: black 2px solid;
+}
+.empty-message{
+  text-align: center;
+}
+h3{margin:0}
+
+p{margin: 0;}
+.form-input{
+  width: 100%;
+  border: solid 1px;
+  border-radius: 3px;
+  height: 25px;
+}
+.form{
+  padding: 1vw;
+}
+.add-task-button{
+  margin-top: 10px;
+  background-color: black;
+  font-size:18px;
+  color:white;
+  border-width: 1px;
+  border-radius: 3px;
+  width: 100%;
+}
+.add-task-button:active{
+  background-color: white;
+  color: black;
+}
+
+.add-task-button:hover{
+  cursor: pointer;
+}
+.hidden{
+  display:none;
+}
